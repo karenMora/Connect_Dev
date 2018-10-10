@@ -20,7 +20,6 @@ public class cl_grupo implements if_grupo {
     public cl_grupo(){
         grupos = new HashMap<>();
     }
-    
     @Override
     public void crearGrupo(String grupo) {
         try {
@@ -41,7 +40,5 @@ public class cl_grupo implements if_grupo {
             grupos.get(grupo).remMiembro(miembro);
         } catch (Exception e) {
         }
-        }
-
-    
+    }
 }
