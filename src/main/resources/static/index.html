@@ -40,141 +40,146 @@
 							<input name="Name" id="Name" value="" placeholder="Name" type="text">
 							<input name="Pass" id="Pass" value="" placeholder="Password" type="password">
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Login</a></li>
+                                                            <li><a href="#one" class="button scrolly" onclick="mostrar()">Login</a></li>
 							</ul>
+                                                        <script type="text/javascript">
+                                                            function mostrar(){
+                                                            document.getElementById('oculto').style.display = 'block';}
+                                                        </script>
 						</div>
 					</section>
+                                <div id="oculto" style="display:none;">
+                                    <!-- One -->
+                                    <section id="one" class="wrapper style2 spotlights">
+                                        <section>
+                                            <a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
+                                            <div class="content">
+                                                <div class="inner">
+                                                    <h2>Rafael Jimenez</h2>
+                                                    <p>CEO</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section>
+                                            <a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
+                                            <div class="content">
+                                                <div class="inner">
+                                                    <h2>Karen Mora</h2>
+                                                    <p>CEO</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section>
+                                            <a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
+                                            <div class="content">
+                                                <div class="inner">
+                                                    <h2>Miguel </h2>
+                                                    <p>CEO</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Rafael Jimenez</h2>
-									<p>CEO</p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Karen Mora</h2>
-									<p>CEO</p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Miguel </h2>
-									<p>CEO</p>
-								</div>
-							</div>
-						</section>
-					</section>
+                                    <!-- Two -->
+                                    <section id="two" class="wrapper style3 fade-up">
+                                        <div class="inner">
+                                            <h2>Let's Start</h2>
+                                            <p>Now Start Coding</p>
+                                            <div class="split style1">
+                                                <section>
+                                                    <form method="post" action="#">
+                                                        <div class="fields">
+                                                            <div class="field half">
+                                                                <label for="name">Document Name</label>
+                                                                <input type="text" name="DocumentName" id="DocumentName" />
+                                                            </div>
+                                                            <div class="field half">
+                                                                <label for="email">Author</label>
+                                                                <input type="text" name="Author" id="Author" />
+                                                            </div>
+                                                            <div class="field">
+                                                                <label for="message">Code</label>
+                                                                <textarea name="Code" id="Code" rows="10"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </section>
+                                                <section>
+                                                    <ul class="contact">
+                                                        <li>
+                                                            <h3>Rafael</h3>
+                                                            <span>_____ Color
+                                                                <br>_____ Palabras</br></span>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Karen</h3>
+                                                            <span>_____ Color
+                                                                <br>_____ Palabras</br></span>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Miguel</h3>
+                                                            <span>_____ Color
+                                                                <br>_____ Palabras</br></span>
+                                                        </li>
+                                                    </ul>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Let's Start</h2>
-							<p>Now Start Coding</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Document Name</label>
-												<input type="text" name="DocumentName" id="DocumentName" />
-											</div>
-											<div class="field half">
-												<label for="email">Author</label>
-												<input type="text" name="Author" id="Author" />
-											</div>
-											<div class="field">
-												<label for="message">Code</label>
-												<textarea name="Code" id="Code" rows="10"></textarea>
-											</div>
-										</div>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Rafael</h3>
-											<span>_____ Color
-											<br>_____ Palabras</br></span>
-										</li>
-										<li>
-											<h3>Karen</h3>
-											<span>_____ Color
-											<br>_____ Palabras</br></span>
-										</li>
-										<li>
-											<h3>Miguel</h3>
-											<span>_____ Color
-											<br>_____ Palabras</br></span>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>CONTACT US !</h2>
-							<p>For more information...</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>AK.45 No.205-59 (Autopista Norte)<br />
-											Bogotá<br />
-											Colombia</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">werenotgoingtoanswer@hotmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>PBX: +57(1) 668 3600</span>
-										</li>
-										<li>
-											<h3>Web Page</h3>
-											<span>https://www.escuelaing.edu.co</span>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+                                    <!-- Three -->
+                                    <section id="three" class="wrapper style1 fade-up">
+                                        <div class="inner">
+                                            <h2>CONTACT US !</h2>
+                                            <p>For more information...</p>
+                                            <div class="split style1">
+                                                <section>
+                                                    <form method="post" action="#">
+                                                        <div class="fields">
+                                                            <div class="field half">
+                                                                <label for="name">Name</label>
+                                                                <input type="text" name="name" id="name" />
+                                                            </div>
+                                                            <div class="field half">
+                                                                <label for="email">Email</label>
+                                                                <input type="text" name="email" id="email" />
+                                                            </div>
+                                                            <div class="field">
+                                                                <label for="message">Message</label>
+                                                                <textarea name="message" id="message" rows="5"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <ul class="actions">
+                                                            <li><a href="" class="button submit">Send Message</a></li>
+                                                        </ul>
+                                                    </form>
+                                                </section>
+                                                <section>
+                                                    <ul class="contact">
+                                                        <li>
+                                                            <h3>Address</h3>
+                                                            <span>AK.45 No.205-59 (Autopista Norte)<br />
+                                                                Bogotá<br />
+                                                                Colombia</span>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Email</h3>
+                                                            <a href="#">werenotgoingtoanswer@hotmail.com</a>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Phone</h3>
+                                                            <span>PBX: +57(1) 668 3600</span>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Web Page</h3>
+                                                            <span>https://www.escuelaing.edu.co</span>
+                                                        </li>
+                                                    </ul>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
 			</div>
 
 		<!-- Footer -->
