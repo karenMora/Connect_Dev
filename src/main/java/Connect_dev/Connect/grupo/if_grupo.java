@@ -1,6 +1,8 @@
 package Connect_dev.Connect.grupo;
 
+import Connect_clases.Grupo.Grupo;
 import Connect_clases.Personas.Miembro;
+import java.util.HashMap;
 
 
 /**
@@ -25,4 +27,5 @@ public interface if_grupo {
      * @param nombre del miembro que se desea eliminar del grupo
      */
     void EliminarMiembro(Miembro miembro, String grupo);
+    HashMap<String, Grupo> getGrupos() ;
 }
