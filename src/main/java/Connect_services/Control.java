@@ -11,6 +11,7 @@ import Connect_dev.Connect.grupo.impl.cl_grupo;
 import java.util.HashMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,21 +20,41 @@ import org.springframework.web.bind.annotation.RestController;
  * @author xra
  */
 @RestController
-public class Control implements services{
+public class Control {
+    
     @Autowired
     cl_grupo  main;
     
-    
-    @GetMapping("grupos")
-    public HashMap<String, Grupo> getGrupos(){
-        return main.getGrupos();
-    }
-    
+    /**
+    * Metodo para el servicio de crear grupo
+    */
     @PostMapping("crearGrupo")
     public void crearGrupo(){
+        main.crearGrupo("grupo");
+    }
+    /**
+     * metodo con el cual se obtienen todos los grupos
+     */
+    @GetMapping("getGrupos")
+    public void getGrupos(){
         
     }
     
+    /**
+    * Metodo para el servicio agregar compañero
+    */
+    @PostMapping("agregarCompañero")
+    public void agregarMiembro(){        
+    }
+    
+    /**
+    * Metodo para el servicio para eliminar a un compañero
+    */
+    @GetMapping("delete")
+    public void delete(){
+        //main.EliminarMiembro(miembro, grupo);
+        
+    }
     
         
     

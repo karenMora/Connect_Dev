@@ -27,5 +27,10 @@ public interface if_grupo {
      * @param nombre del miembro que se desea eliminar del grupo
      */
     void EliminarMiembro(Miembro miembro, String grupo);
-    HashMap<String, Grupo> getGrupos() ;
+        
+    /**
+     * Metodo con el cual se recuperan todos los grupos
+     * @return listado con el cual se ven todos los grupos
+     */
+     public HashMap<String, Grupo> getGrupos();       
 }

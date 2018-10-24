@@ -41,10 +41,8 @@ public class cl_grupo implements if_grupo {
         } catch (Exception e) {
         }
     }
-
     @Override
     public HashMap<String, Grupo> getGrupos() {
         return grupos;
     }
-    
 }
