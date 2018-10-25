@@ -5,7 +5,9 @@
  */
 package Connect_clases.Archivos;
 
+import Connect_clases.Grupo.Grupo;
 import java.io.File;
+import java.util.HashMap;
 
 /**
  *
@@ -14,13 +16,28 @@ import java.io.File;
 public class Archivos {
     
     File Archivo;
+    private HashMap<String,Archivo> archivos;
+    
+    public Archivos(){
+        archivos = new HashMap<>();
+    }
     
     public void addArchivo(String nameArch){
         Archivo arch = new Archivo(nameArch);
+        try {
+            archivos.put(nameArch, new Archivo(nameArch));
+        } catch (Exception e) {
+        } 
     }
     
     public void deleteArchivo(){
         
+    }
+    public void deleteArchivo (Archivo archivo, String archiv) {
+        try {
+            archivos.remove(archiv);
+        } catch (Exception e) {
+        }
     }
     
     public File getArchivo(){
