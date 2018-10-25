@@ -3,12 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Connect_clases.Archivo;
+package Connect_clases.Archivos;
+
+import java.io.File;
 
 /**
  *
  * @author miguel
  */
 public class Archivo {
+    
+    File archivo;
+    
+    public Archivo(String nameFile){
+        archivo = new File(""+nameFile+".txt");
+    }
     
 }
