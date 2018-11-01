@@ -1,6 +1,7 @@
 package Connect_dev.Connect.model.persona;
 
 public interface Persona {
+    
     public void setNombre(String nombre);
     public void setCorreo(String correo);
     public void setUsuario();

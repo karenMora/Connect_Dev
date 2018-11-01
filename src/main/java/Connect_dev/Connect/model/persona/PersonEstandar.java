@@ -11,7 +11,6 @@ public class PersonEstandar implements Persona{
     private String clave;
 
     /**
-     *
      * @param nombre hace referencia al nombre de la persona
      * @param correo hace referencia al correo y debe tener una estructur XXXX@XXX.XXX
      * @param usuario hace referencia al usuario y no puede contener caracteres especiales
@@ -25,6 +24,7 @@ public class PersonEstandar implements Persona{
     }
 
     @Override
+
     public String getNombre() {
         return nombre;
     }
