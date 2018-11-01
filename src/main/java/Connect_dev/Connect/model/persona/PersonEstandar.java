@@ -24,31 +24,35 @@ public class PersonEstandar implements Persona{
         this.clave=clave;
     }
 
-
+    @Override
     public String getNombre() {
         return nombre;
     }
-
+    @Override
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    @Override
     public String getCorreo() {
         return correo;
     }
-
+    @Override
     public void setCorreo(String correo) {
         this.correo = correo;
     }
 
-    public String getUsuario() {
+    @Override
+    public void setUsuario() {
+    }
+    @Override
+    public String getUser() {
         return usuario;
     }
-
+    @Override
     public String getClave() {
         return clave;
     }
-
+    @Override
     public void setClave(String clave) {
         this.clave = clave;
     }

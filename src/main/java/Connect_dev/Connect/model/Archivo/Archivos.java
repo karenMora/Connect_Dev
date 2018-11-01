@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Connect_dev.Connect.model.archivo;
+package Connect_dev.Connect.model.Archivo;
 
 import java.io.File;
 import java.util.HashMap;
