@@ -33,20 +33,25 @@
 
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
+						<div id="validar" class="inner">
 							<h1>hi!</h1>
 							<p>Just another Text Editor JATE<br/>
-							<br></br>
-							<input name="Name" id="Name" value="" placeholder="Name" type="text">
-							<input name="Pass" id="Pass" value="" placeholder="Password" type="password">
+							<br>
+                                                        <input name="Name" id="Name" value="" placeholder="Name" type="text" size="30">
+                                                        <br>
+                                                        <input name="Pass" id="Pass" value="" placeholder="Password" type="password" size="10">
 							<ul class="actions">
                                                             <li><a href="#one" class="button scrolly" onclick="mostrar()">Login</a></li>
 							</ul>
                                                         <script type="text/javascript">
                                                             function mostrar(){
-                                                            document.getElementById('oculto').style.display = 'block';}
+                                                                document.getElementById('oculto').style.display = 'block';
+                                                            }
                                                         </script>
-						</div>
+                                                        <div>¿you are new?</div>
+                                                        <div>Register now by clicking on the button below </div>
+                                                        <input name="register" id="register" type="Button" onclick='alert("DEBERIA IR A PAGINA DE REGISTRO.")' value="Registrarme">
+                                                </div>
 					</section>
                                 <div id="oculto" style="display:none;">
                                     <!-- One -->
